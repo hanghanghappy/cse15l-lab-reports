@@ -5,7 +5,7 @@
 > - Download VScode at https://code.visualstudio.com
 > - Choose the right version for your Operating System
 > - After you finish installing VScode, this is how it should look like when you open it:
-> ![Image](Photo/lab1screenshot0.PNG)
+> ![Image](Photo/lab1screenshot0.png)
 
 **Remotely Connecting**<br>
 > - If you are on Windows, you will have to install OpenSSH with the following link: <br>
@@ -34,7 +34,7 @@
 >>> This command shows all files and hidden ones with detailed information
 >
 > Here is a screenshot of the example output of the commands<br>
-> ![Image](Photo/lab1screenshot2.PNG)
+> ![Image](Photo/lab1screenshot2.png)
 > You can log out by pressing Ctrl-D or typing the command exit
 
 
@@ -58,7 +58,7 @@ public static void main(String[] args) {<br>
 >>>> scp WhereAmI.java cs15lwi22ava@ieng6.ucsd.edu:~/<br>
 >>>
 >>>- Login with ssh then type ls, then your file will show up<br>
->>>![Image](Photo/lab1screenshot3.PNG)
+>>>![Image](Photo/lab1screenshot3.png)
 
 **Setting an SSH Key**<br>
 > - This is used to eliminate the time of typing your password again and again when you try to login
