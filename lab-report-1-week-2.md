@@ -44,14 +44,14 @@
 >
 > - Here is an example of how it works: <br>
 >>> - First create a file named WhereAmI.java with the following content:<br>
->>>>`class WhereAmI {
-public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
-  }
-}`
+>>>>class WhereAmI {<br>
+public static void main(String[] args) {<br>
+    System.out.println(System.getProperty("os.name"));<br>
+    System.out.println(System.getProperty("user.name"));<br>
+    System.out.println(System.getProperty("user.home"));<br>
+    System.out.println(System.getProperty("user.dir"));<br>
+  }<br>
+}<br>
 >>>
 >>>- Then run javac and java on your computer with the file <br>
 >>>- After that run the command (replace the account name with yours)
