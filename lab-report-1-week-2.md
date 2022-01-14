@@ -78,8 +78,9 @@ https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_k
 **Optimizing Remote Running**<br>
 > - You can directly run command on the remote server with quotes after the ssh command
 >> ssh cs15lwi22ava@ieng6.ucsd.edu "ls -lat"
+>
 > - To run multiple commands in the same line, you can use semicolons 
->>> ssh cs15lwi22ava@ieng6.ucsd.edu javac WhereAmI.java; java WhereAmI;
+>> ssh cs15lwi22ava@ieng6.ucsd.edu javac WhereAmI.java; java WhereAmI;
 >
 >- Here is a screenshot of the example:<br>
 >![Image](Photo/lab1screenshot6.png)
