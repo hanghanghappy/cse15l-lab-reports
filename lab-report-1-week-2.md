@@ -17,7 +17,7 @@
 > ssh cs15lwi22ava@ieng6.ucsd.edu <br>
 > replace the "ava" by your own letters of your account
 > - Enter the password
-> - This is how it should look like if it is your first time
+> - This is how it should look like if it is your first time<br>
 > ![Image](Photo/lab1screenshot1.png)
 
 **Trying Some Commands**<br>
@@ -33,7 +33,7 @@
 >>>> ls -lat <br>
 >>> This command shows all files and hidden ones with detailed information
 >
-> Here is a screenshot of the example output of the commands
+> Here is a screenshot of the example output of the commands<br>
 > ![Image](Photo/lab1screenshot2.PNG)
 > You can log out by pressing Ctrl-D or typing the command exit
 
@@ -57,14 +57,14 @@ public static void main(String[] args) {
 >>>- After that run the command (replace the account name with yours)
 >>>> scp WhereAmI.java cs15lwi22ava@ieng6.ucsd.edu:~/<br>
 >>>
->>>- Login with ssh then type ls, then your file will show up
+>>>- Login with ssh then type ls, then your file will show up<br>
 >>>![Image](Photo/lab1screenshot3.PNG)
 
 **Setting an SSH Key**<br>
 > - This is used to eliminate the time of typing your password again and again when you try to login
 > - Type the following command on your computer:
 >>ssh-keygen
-> - This is how it will show up: 
+> - This is how it will show up: <br>
 >![Image](Photo/lab1screenshot4.png)
 >- If you are using Windows, you might need the extra ssh-add steps with more information here:
 https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation
