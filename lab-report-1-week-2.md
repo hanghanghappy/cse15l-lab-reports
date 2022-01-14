@@ -72,7 +72,7 @@ https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_k
 > - Then you copy the private key to the .ssh directory of the remote computer with the command (Change your own values in the brackets):
 >> scp < C:\Users\User/.ssh/id_rsa.pub. > < cs15lwi22ava@ieng6.ucsd.edu:~/.ssh/authorized_keys >
 >
-> - Now you don't need a password to login everytime
+> - Now you don't need a password to login everytime<br>
 >![Image](Photo/lab1screenshot5.png)
 
 **Optimizing Remote Running**<br>
@@ -81,5 +81,5 @@ https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_k
 > - To run multiple commands in the same line, you can use semicolons 
 >>> ssh cs15lwi22ava@ieng6.ucsd.edu javac WhereAmI.java; java WhereAmI;
 >
->- Here is a screenshot of the example:
+>- Here is a screenshot of the example:<br>
 >![Image](Photo/lab1screenshot6.png)
