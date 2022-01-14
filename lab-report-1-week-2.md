@@ -18,7 +18,7 @@
 > replace the "ava" by your own letters of your account
 > - Enter the password
 > - This is how it should look like if it is your first time
-> ![Image](Photo/lab1screenshot1.PNG)
+> ![Image](Photo/lab1screenshot1.png)
 
 **Trying Some Commands**<br>
 > - This is a list of useful commands that can be tried: <br>
