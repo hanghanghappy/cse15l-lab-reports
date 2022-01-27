@@ -2,7 +2,7 @@
 
 
 **Installing VScode**<br>
-> - Download VScode at [Link](https://code.visualstudio.com)
+> - Download VScode at [https://code.visualstudio.com](https://code.visualstudio.com)
 > - Choose the right version for your Operating System
 > - After you finish installing VScode, this is how it should look like when you open it:
 > ![Image](Photo/lab1screenshot0.png)
@@ -75,14 +75,16 @@ https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_k
 > - Now you don't need a password to login everytime<br>
 >![Image](Photo/lab1screenshot5.png)
 
-> - The number of keystrokes 
 
 **Optimizing Remote Running**<br>
 > - You can directly run command on the remote server with quotes after the ssh command
 >> `ssh cs15lwi22ava@ieng6.ucsd.edu "ls -lat"`
 >
 > - To run multiple commands in the same line, you can use semicolons 
->> ssh cs15lwi22ava@ieng6.ucsd.edu javac WhereAmI.java; java WhereAmI;
+>> `ssh cs15lwi22ava@ieng6.ucsd.edu javac WhereAmI.java; java WhereAmI;`
 >
+>> (Number of keystrokes for pressing enter)
+>> - The number of keystrokes without running multiple commands: 3
+>> - The number of keystrokes when running multiple commands: 1
 >- Here is a screenshot of the example:<br>
 >![Image](Photo/lab1screenshot6.png)
