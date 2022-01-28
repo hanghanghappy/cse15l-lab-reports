@@ -6,7 +6,7 @@
 >
 > Link to the test file: [Test file](https://github.com/hanghanghappy/markdown-parse/blob/main/test2-file.md)
 >
-> Failing output: 
+> Symptom of the failure-inducing input: 
 >
 > ![Image](Photo/lab2screenshot2.png)
 > 
@@ -18,7 +18,7 @@
 >
 > Link to the test file: [Test file](https://github.com/hanghanghappy/markdown-parse/blob/main/test3-file.md)
 >
-> Failing output: 
+> Symptom of the failure-inducing input: 
 >
 > ![Image](Photo/lab2screenshot4.png)
 > 
@@ -30,7 +30,7 @@
 >
 > Link to the test file: [Test file](https://github.com/hanghanghappy/CSE15L-Platypus/blob/main/test-file6.md)
 >
-> Failing output: 
+> Symptom of the failure-inducing input: 
 >
 > ![Image](Photo/lab2screenshot6.png)
 >
