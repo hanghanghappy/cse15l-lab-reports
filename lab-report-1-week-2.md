@@ -35,7 +35,7 @@
 >
 > Here is a screenshot of the example output of the commands<br>
 > ![Image](Photo/lab1screenshot2.png)
-> You can log out by pressing Ctrl-D or typing the command exit
+> You can log out by pressing Ctrl-D or typing the command `exit`
 
 
 **Moving Files with scp**<br>
@@ -53,11 +53,11 @@ public static void main(String[] args) {
   }
 }`<br>
 >>>
->>>- Then run javac and java on your computer with the file <br>
+>>>- Then run `javac` and `java` on your computer with the file <br>
 >>>- After that run the command (replace the account name with yours)
 >>>> `scp WhereAmI.java cs15lwi22ava@ieng6.ucsd.edu:~/`<br>
 >>>
->>>- Login with ssh then type ls, then your file will show up<br>
+>>>- Login with `ssh` then type `ls`, then your file will show up<br>
 >>>![Image](Photo/lab1screenshot3.png)
 
 **Setting an SSH Key**<br>
@@ -83,7 +83,7 @@ public static void main(String[] args) {
 > - To run multiple commands in the same line, you can use semicolons 
 >> `ssh cs15lwi22ava@ieng6.ucsd.edu javac WhereAmI.java; java WhereAmI;`
 >
->> Using this optimized version the number of keystrokes is 3, without the optimzation the number of keystrokes is 6 which shows that the optimized version is more effective
+>> Using this optimized version the number of keystrokes is 2, without the optimzation the number of keystrokes is 6 which shows that the optimized version is more effective
 
 >- Here is a screenshot of the example:<br>
 >![Image](Photo/lab1screenshot6.png)
