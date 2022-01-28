@@ -83,8 +83,7 @@ public static void main(String[] args) {
 > - To run multiple commands in the same line, you can use semicolons 
 >> `ssh cs15lwi22ava@ieng6.ucsd.edu javac WhereAmI.java; java WhereAmI;`
 >
->> (Number of keystrokes for pressing enter)
->> - The number of keystrokes without running multiple commands: 3
->> - The number of keystrokes when running multiple commands: 1
+>> Using this optimized version the number of keystrokes is 3, without the optimzation the number of keystrokes is 6 which shows that the optimized version is more effective
+
 >- Here is a screenshot of the example:<br>
 >![Image](Photo/lab1screenshot6.png)
