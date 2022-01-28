@@ -2,16 +2,16 @@
 
 
 **Installing VScode**<br>
-> - Download VScode at [https://code.visualstudio.com](https://code.visualstudio.com)
+> - Download VScode at [Visual Studio](https://code.visualstudio.com)
 > - Choose the right version for your Operating System
 > - After you finish installing VScode, this is how it should look like when you open it:
 > ![Image](Photo/lab1screenshot0.png)
 
 **Remotely Connecting**<br>
 > - If you are on Windows, you will have to install OpenSSH with the following link: <br>
->[https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+>[OpenSSH installation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 > - Check your course-specific account: <br>
-> [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+> [Course-specific account](https://sdacs.ucsd.edu/~icc/index.php)
 > - Open a terminal in VScode
 > - Type the following command<br>
 > `ssh cs15lwi22ava@ieng6.ucsd.edu` <br>
@@ -67,7 +67,7 @@ public static void main(String[] args) {
 > - This is how it will show up: <br>
 >![Image](Photo/lab1screenshot4.png)
 >- If you are using Windows, you might need the extra ssh-add steps with more information here:
-[https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+[More information](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 > - After typing the command, it will create two files, one public key and one private key
 > - Then you copy the private key to the .ssh directory of the remote computer with the command (Change your own values in the brackets):
 >> `scp < C:\Users\User/.ssh/id_rsa.pub. > < cs15lwi22ava@ieng6.ucsd.edu:~/.ssh/authorized_keys >`
