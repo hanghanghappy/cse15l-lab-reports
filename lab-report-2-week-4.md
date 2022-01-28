@@ -34,4 +34,4 @@
 >
 > ![Image](Photo/lab2screenshot6.png)
 >
-> The cause of this bug is when there is a `!` in the line because with `!` before the brackets means that it is an image not a link. However, the code does not recognize it. The symptom is that the list contains the two texts while there should be only one which is `page1.com` as that is the only link. To fix this, there needs to be a check for the character before the open bracket if it is an exclamation mark or not. If it is, then the content of that line will not be added to the list.
+> The cause of this bug is when there is a `!` in the line because with `!` before the brackets means that it is an image not a link, however, the code does not recognize it. The symptom is that the list contains the two texts while there should be only one which is `page1.com` as that is the only link. To fix this, there needs to be a check for the character before the open bracket if it is an exclamation mark or not and if it is, then the content of that line will not be added to the list.
