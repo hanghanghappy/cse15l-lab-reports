@@ -1,7 +1,7 @@
 # Lab Report 3
 
 **The public key I made is stored on Github and my user account**
-> I have made a key for Github use and I uploaded it to Github as well. Here are the screenshots for where the public key is on my user account as well.
+> I have made a key for Github use and I uploaded it to Github as well. Here are the screenshots for where the public key is on my user account and Github.
 >
 > ![Image](Photo/lab3screenshot1.png)
 >
