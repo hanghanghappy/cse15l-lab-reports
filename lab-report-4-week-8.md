@@ -9,7 +9,7 @@
 
 ## **Snippet 1**
 
-What it should produce:
+**What it should produce:**
 
 ```[`google.com, google.com, ucsd.edu]```
 
@@ -25,7 +25,7 @@ It didn't pass the test.
 
 **How I turned it into a test for the implementation that I reviewed:**
 
-![Image][Photo/lab4screenshot10.png]
+![Image](Photo/lab4screenshot10.png)
 
 **For the implementation that I reviewed:**
 
@@ -35,7 +35,7 @@ It didn't pass the test.
 
 ## **Snippet 2**
 
-What it should produce:
+**What it should produce:**
 
 ```[a.com, a.com(()), example.com]```
 
@@ -51,7 +51,7 @@ It didn't pass the test.
 
 **How I turned it into a test for the implementation that I reviewed:**
 
-![Image][Photo/lab4screenshot11.png]
+![Image](Photo/lab4screenshot11.png)
 
 **For the implementation that I reviewed:**
 
@@ -61,7 +61,7 @@ It didn't pass the test.
 
 ## **Snippet 3**
 
-What it should produce:
+**What it should produce:**
 
 ```[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]```
 
@@ -77,7 +77,7 @@ It didn't pass the test.
 
 **How I turned it into a test for the implementation that I reviewed:**
 
-![Image][Photo/lab4screenshot12.png]
+![Image](Photo/lab4screenshot12.png)
 
 **For the implementation that I reviewed:**
 
