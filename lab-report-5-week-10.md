@@ -50,6 +50,3 @@ The line number that shows results of ```516.md``` is ```928``` in ```results.tx
 
   Here is the part of the code from Lab9 for the fix described above:
 ![Image](Photo/lab5screenshot9.png)
-
-
-
