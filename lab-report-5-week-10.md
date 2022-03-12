@@ -61,5 +61,5 @@ The line number that shows results of ```516.md``` is ```928``` in ```results.tx
   
   The problem in the implementation provided is that it considers ```moon.jpg``` as a link. While the output should be ```[/uri]``` which is the link instead. The problem is that the code does not recognize the ```!``` symbol and therefore expect the ```moon.jpg``` as a link instead of an image because having proper bracket and parentheses pairs. It needs to have the ability to detect images by checking for symbols like ```!``` as in this case the picture will be the display for people to click to access the link. As shown in the code below, there is no check for symbols such as ```!``` and that's why ```moon.jpg``` is recognized as a link. A fix will be checking if the text contains any special symbols like ```!```.
 
-  Here is the part of the code from Lab9 for the fix described above:
+  Here is the part of the code from Lab 9 for the fix described above:
 ![Image](Photo/lab5screenshot9.png)
