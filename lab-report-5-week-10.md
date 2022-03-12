@@ -29,7 +29,7 @@ The line number that shows results of ```511.md``` is ```918``` in ```results.tx
 
  The results of my group implementation which is ```[]``` while the implementation provided which is ```[/uri]``` are different. The expected output is ```[/uri]``` which shows that the implementation provided in Lab 9 is the correct one.
 
-The problem in my implementation is that it does not check for the proper open and close brackets that it considers the markdown text as invalid. To fix it, my code has to first find the total number of brackets and then check if it is a proper pair. It has to check if the first opening bracket has a corresponding closing bracket. If it is valid, then double check the same thing for parentheses as well to see if it is a proper link. As shown in my code below, it finds the first opening bracket and then it finds the next closing bracket directly which is not the last closing bracket in the case of ```511.md```, this therefore causes the problem.
+The problem in my implementation is that it does not check for the proper open and close brackets that it considers the markdown text as invalid. To fix it, my code has to check if the brackets are all proper pairs. It has to check if the first opening bracket has a corresponding closing bracket which is supposed to be the last closing bracket appeared before the opening parentheses. If it is valid, then double check the same thing for parentheses as well to see if it is a proper link. As shown in my code below, it finds the first opening bracket and then it finds the next closing bracket directly which is not the last closing bracket in the case of ```511.md```, this therefore causes the problem.
 
 Here is the part of my code for the fix described above:
 
